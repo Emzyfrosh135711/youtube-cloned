@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+
+  <body>
+    
+    
+
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="youtube icons/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="youtube icons/youtube-logo.svg" alt="">
+      </div>
+      <div class="middle-section">
+
+        <input class="search-bar" type="text" placeholder="search">
+        <button class="search-button">
+          <img class="search-icon" src="youtube icons/search.svg" alt="">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative-->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="youtube icons/voice-search-icon.svg" alt="">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+
+          <img class="upload-icon" src="youtube icons/upload.svg" alt="">
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="youtube icons/youtube-apps.svg" alt="">
+          <div class="tooltip">YouTube Apps</div>
+        </div>  
+        
+        <div class="notification-icon-container">
+          <img class="notifications-icon" src="youtube icons/notifications.svg" alt="">
+          <div class="notification-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel pictures/channel.jpeg" alt="">
+      </div>
+      
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="youtube icons/home.svg " alt="">
+        <div class="sidebar-tag">Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="youtube icons/explore.svg" alt="">
+        <div class="sidebar-tag">Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="youtube icons/subscriptions.svg" alt="">
+        <div class="sidebar-tag">Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="youtube icons/originals.svg " alt="">
+        <div class="sidebar-tag">Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="youtube icons/youtube-music.svg " alt="">
+        <div class="sidebar-tag">YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="youtube icons/library.svg " alt="">
+        <div class="sidebar-tag">Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnail/deer.webp" alt="">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+    
+            <div class="channel-picture">
+              <img class="profile-picture" src="./channel pictures/channel.jpeg" alt="">
+
+              <div class="channel-stats">
+                <div class="channel-author-picture">
+                  <img class= "picture" src="./channel pictures/channel.jpeg" alt="">
+                </div>
+                <div class="channel-details">
+                  <div class="channel-author">Marques Brownlee</div>
+                  <div class="subscribers">15M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai
+                </p>
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+                <p class="video-stats">
+                  3.4M views &#183; 6 months age
+                </p>                                                             
+            </div>
+           
+          </div>  
+        </div>
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./thumbnail/thumbnail-2.webp" alt="">
+            <div class="video-time">8:22</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-picture">
+              <img class="profile-picture" src="./channel pictures/channel-2.jpeg" alt="">
+              <div class="channel-stats">
+                <div class="channel-author-picture">
+                  <img class= "picture" src="./channel pictures/channel-2.jpeg" alt="">
+                </div>
+                <div class="channel-details">
+                  <div class="channel-author">Markiplier</div>
+                  <div class="subscribers">12.3M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Try Not To Laugh Challenge #9
+              </p>
+              <p class="video-author">
+                Markiplier
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years age
+              </p>
+            </div>
+           
+          </div> 
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./channel pictures/thumbnail-3.webp" alt="">
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="video-info-grid">
+    
+            <div class="channel-picture">
+              <img class="profile-picture" src="./channel pictures/channel-3.jpeg" alt="">
+              <div class="channel-stats">
+                <div class="channel-author-picture">
+                  <img class= "picture" src="./channel pictures/channel-3.jpeg" alt="">
+                </div>
+                <div class="channel-details">
+                  <div class="channel-author">SSSniperWolf</div>
+                  <div class="subscribers">20M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                  Crazy Tik Toks Taken Moments Before Disaster
+                </p>
+                <p class="video-author">
+                  SSSniperWolf
+                </p>
+                <p class="video-stats">
+                  12M views &#183; 1 year ago
+                </p>                                                             
+            </div>
+           
+          </div>  
+        </div>
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./channel pictures/thumbnail-4.webp" alt="">
+            <div class="video-time">14:20</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-picture">
+              <img class="profile-picture" src="./channel pictures/channel-4.jpeg" alt="">
+              <div class="channel-stats">
+                <div class="channel-author-picture">
+                  <img class= "picture" src="./channel pictures/channel-4.jpeg" alt="">
+                </div>
+                <div class="channel-details">
+                  <div class="channel-author">Veritassium</div>
+                  <div class="subscribers">1.4M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve Collatz...
+              </p>
+              <p class="video-author">
+                Veritassium
+              </p>
+              <p class="video-stats">
+                18M views &#183; 4 months age
+              </p>
+            </div>
+           
+          </div> 
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./channel pictures/thumbnail-5.webp" alt="">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+    
+            <div class="channel-picture">
+              <img class="profile-picture" src="./channel pictures/channel-5.jpeg" alt="">
+              <div class="channel-stats">
+                <div class="channel-author-picture">
+                  <img class= "picture" src="./channel pictures/channel-5.jpeg" alt="">
+                </div>
+                <div class="channel-details">
+                  <div class="channel-author">CS Dojo</div>
+                  <div class="subscribers">235K subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                  Kandane's Algorithm to Maximum Sum Subarray Problem
+                </p>
+                <p class="video-author">
+                  CS Dojo
+                </p>
+                <p class="video-stats">
+                  519K views &#183; 5 years ago
+                </p>                                                             
+            </div>
+           
+          </div>  
+        </div>
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="./channel pictures/thumbnail-6.webp" alt="">
+            <div class="video-time">14:20</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-picture">
+              <img class="profile-picture" src="./channel pictures/channel-6.jpeg" alt="">
+              <div class="channel-stats">
+                <div class="channel-author-picture">
+                  <img class= "picture" src="./channel pictures/channel-6.jpeg" alt="">
+                </div>
+                <div class="channel-details">
+                  <div class="channel-author">MrBeast</div>
+                  <div class="subscribers">20.5M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I'll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years age
+              </p>
+            </div>
+           
+          </div> 
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-10.webp" alt="">
+            <div class="video-time">14:20</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-picture">
+              <img class="profile-picture" src="./channel pictures/channel-10.jpeg" alt="">
+              <div class="channel-stats">
+                <div class="channel-author-picture">
+                  <img class= "picture" src="./channel pictures/channel-10.jpeg" alt="">
+                </div>
+                <div class="channel-details">
+                  <div class="channel-author">MrBeast</div>
+                  <div class="subscribers">20.5M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I'll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years age
+              </p>
+            </div>
+           
+          </div> 
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-11.webp" alt="">
+            <div class="video-time">14:20</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-picture">
+              <img class="profile-picture" src="./channel pictures/channel-11.jpeg" alt="">
+              <div class="channel-stats">
+                <div class="channel-author-picture">
+                  <img class= "picture" src="./channel pictures/channel-11.jpeg" alt="">
+                </div>
+                <div class="channel-details">
+                  <div class="channel-author">MrBeast</div>
+                  <div class="subscribers">20.5M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I'll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years age
+              </p>
+            </div>
+           
+          </div> 
+        </div>
+
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnail/thumbnail-12.webp" alt="">
+            <div class="video-time">14:20</div>
+          </div>
+    
+          <div class="video-info-grid">
+    
+            <div class="channel-picture">
+              <img class="profile-picture" src="./channel pictures/channel-12.jpeg" alt="">
+              <div class="channel-stats">
+                <div class="channel-author-picture">
+                  <img class= "picture" src="./channel pictures/channel-12.jpeg" alt="">
+                </div>
+                <div class="channel-details">
+                  <div class="channel-author">MrBeast</div>
+                  <div class="subscribers">20.5M subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I'll Pay For
+              </p>
+              <p class="video-author">
+                MrBeast
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years age
+              </p>
+            </div>
+           
+          </div> 
+        </div>
+  
+      </section>
+  
+    </main>
+
+
+
+
+  </body>
+</html>
